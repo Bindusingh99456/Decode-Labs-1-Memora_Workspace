@@ -42,3 +42,53 @@ Thumbs.db
 .env.local
 !.env.example
 
+# Firebase and Firestore
+.firebase/
+.firebaserc
+firebase-debug.log
+firestore-debug.log
+pubsub-debug.log
+ui-debug.log
+
+# Firebase emulator data
+emulators/
+
+# Google Cloud credentials (NEVER commit these!)
+*credentials*.json
+*key*.json
+google-services.json
+GoogleService-Info.plist
+serviceAccountKey.json
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Testing
+.nyc_output/
+jest.config.js.map
+
+# Build tools
+.turbo/
+.vercel/
+
+# Package manager lock files (uncomment if needed)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Temporary files
+tmp/
+temp/
+*.bak
+*.tmp
+
+# IDE specific folders
+.netbeans/
+.eclipse/
+
+# Misc
+*.sublime-project
+*.sublime-workspace
+.cache/
+.parcel-cache/
